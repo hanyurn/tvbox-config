@@ -1460,12 +1460,6 @@
       "url": "http://m.szyyds.cn/api.php?token=8664f352657e8b13585bcf0f84fc3512",
       "playerType": 2,
       "timeout": 10
-    },
-    {
-      "name": "Kimentanm",
-      "type": 0,
-      "url": "https://down.nigx.cn/raw.githubusercontent.com/Kimentanm/aptv/master/m3u/iptv.m3u",
-      "playerType": 2
     }
   ]
 }
