@@ -1,0 +1,47 @@
+name: daily-aggregate
+
+on:
+  schedule:
+    # 每天 UTC 21:00（北京时间 05:00）跑一次。GitHub 的定时任务可能延迟几分钟到几十分钟。
+    # 注意：公网高清源的“每三天拉新”不是靠这个 cron，而是由脚本用 hd_state.json
+    #      里的 last_fetch 判断间隔（每 3 天才真正拉新+检测一次），不受跨月日期影响。
+    - cron: "0 21 * * *"
+  workflow_dispatch:
+    inputs:
+      force_hd:
+        description: "强制立即拉新一次公网高清源（无视三天间隔）"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: 抓取、测活、合并（含公网高清源每三天拉新+检测）
+        run: |
+          EXTRA=""
+          if [ "${{ github.event.inputs.force_hd }}" = "true" ]; then
+            EXTRA="--hd-refresh"
+          fi
+          python3 merge_true.py --max-live 30 $EXTRA
+
+      - name: 提交结果
+        run: |
+          git config user.name "tvbox-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add agg_true.json lives_state.json hd_state.json last_run.txt
+          if git diff --cached --quiet; then
+            echo "配置没有变化，跳过提交"
+          else
+            git commit -m "chore: 每日更新聚合配置 $(date -u +%F)"
+            git push
+          fi
