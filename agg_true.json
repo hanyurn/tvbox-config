@@ -1403,15 +1403,35 @@
   ],
   "lives": [
     {
+      "name": "IPTV4聚合",
+      "url": "https://live.zbds.top/tv/iptv4.m3u"
+    },
+    {
+      "name": "YanG集合",
+      "url": "https://iptv.yang-1989.xyz/playlist.m3u"
+    },
+    {
+      "name": "iptv-org CN",
+      "url": "https://iptv-org.github.io/iptv/countries/cn.m3u"
+    },
+    {
+      "name": "GNTV",
+      "url": "https://raw.githubusercontent.com/YueChan/Live/main/GNTV.m3u"
+    },
+    {
+      "name": "YueChan高清",
+      "url": "https://testingcf.jsdelivr.net/gh/YueChan/Live@main/IPTV.m3u"
+    },
+    {
       "name": "电视狗",
       "type": 0,
-      "url": "https://zb.7778.uk",
+      "url": "https://zb.7778.uk/starlink.m3u",
       "epg": ""
     },
     {
       "name": "电视狗(2)",
       "type": 0,
-      "url": "https://zb.7778.uk/starlink.m3u",
+      "url": "https://zb.7778.uk",
       "epg": ""
     },
     {
@@ -1435,17 +1455,17 @@
       "epg": ""
     },
     {
-      "name": "Kimentanm",
-      "type": 0,
-      "url": "https://down.nigx.cn/raw.githubusercontent.com/Kimentanm/aptv/master/m3u/iptv.m3u",
-      "playerType": 2
-    },
-    {
       "name": "有效期27年7月",
       "type": 0,
       "url": "http://m.szyyds.cn/api.php?token=8664f352657e8b13585bcf0f84fc3512",
       "playerType": 2,
       "timeout": 10
+    },
+    {
+      "name": "Kimentanm",
+      "type": 0,
+      "url": "https://down.nigx.cn/raw.githubusercontent.com/Kimentanm/aptv/master/m3u/iptv.m3u",
+      "playerType": 2
     }
   ]
 }
