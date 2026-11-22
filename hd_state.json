@@ -1,39 +1,39 @@
 {
   "last_check": "测试 10 / 通过 5",
-  "last_fetch": "2026-11-19",
+  "last_fetch": "2026-11-22",
   "sources": [
     {
-      "channels": 329,
-      "last_check": "2026-11-19",
-      "ms": 329,
+      "channels": 345,
+      "last_check": "2026-11-22",
+      "ms": 320,
       "name": "IPTV4聚合",
       "url": "https://live.zbds.top/tv/iptv4.m3u"
     },
     {
-      "channels": 287,
-      "last_check": "2026-11-19",
-      "ms": 746,
+      "channels": 171,
+      "last_check": "2026-11-22",
+      "ms": 659,
       "name": "YanG集合",
       "url": "https://iptv.yang-1989.xyz/playlist.m3u"
     },
     {
       "channels": 156,
-      "last_check": "2026-11-19",
-      "ms": 118,
+      "last_check": "2026-11-22",
+      "ms": 43,
       "name": "iptv-org CN",
       "url": "https://iptv-org.github.io/iptv/countries/cn.m3u"
     },
     {
-      "channels": 132,
-      "last_check": "2026-11-19",
-      "ms": 179,
+      "channels": 130,
+      "last_check": "2026-11-22",
+      "ms": 86,
       "name": "GNTV",
       "url": "https://raw.githubusercontent.com/YueChan/Live/main/GNTV.m3u"
     },
     {
       "channels": 96,
-      "last_check": "2026-11-19",
-      "ms": 68,
+      "last_check": "2026-11-22",
+      "ms": 89,
       "name": "YueChan高清",
       "url": "https://testingcf.jsdelivr.net/gh/YueChan/Live@main/IPTV.m3u"
     }
