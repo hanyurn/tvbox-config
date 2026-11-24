@@ -1,114 +1,114 @@
 {
   "http://127.0.0.1:5266/iptv.m3u": {
-    "fail": 6,
+    "fail": 7,
     "ok": 0
   },
   "http://127.0.0.1:9978/proxy?do=live&url=https://x.szyyds.cn/bililive.m3u": {
-    "fail": 7,
+    "fail": 8,
     "ok": 0
   },
   "http://127.0.0.1:9978/proxy?do=live&url=https://x.szyyds.cn/douyuyqk.m3u": {
-    "fail": 7,
+    "fail": 8,
     "ok": 0
   },
   "http://127.0.0.1:9978/proxy?do=live&url=https://x.szyyds.cn/huyayqk.m3u": {
-    "fail": 7,
+    "fail": 8,
     "ok": 0
   },
   "http://127.0.0.1:9978/proxy?do=live&url=https://x.szyyds.cn/yylunbo.m3u": {
-    "fail": 7,
+    "fail": 8,
     "ok": 0
   },
   "http://127.0.0.1:9978/proxy?do=饭太硬&type=liveList": {
-    "fail": 7,
+    "fail": 8,
     "ok": 0
   },
   "http://193.123.86.190:14888/TV/iptv.php": {
     "channels": 222,
     "fail": 0,
-    "last_ok": "2026-11-23",
-    "ms": 643,
-    "ok": 7
+    "last_ok": "2026-11-24",
+    "ms": 676,
+    "ok": 8
   },
   "http://47.120.41.246:8025/vip/jar/zb.php": {
-    "channels": 153,
+    "channels": 154,
     "fail": 0,
-    "last_ok": "2026-11-23",
-    "ms": 1790,
-    "ok": 7
+    "last_ok": "2026-11-24",
+    "ms": 1736,
+    "ok": 8
   },
   "http://home.jundie.top:81/Cat/tv/live.txt": {
-    "fail": 7,
+    "fail": 8,
     "ok": 0
   },
   "http://m.szyyds.cn/api.php?token=8664f352657e8b13585bcf0f84fc3512": {
     "channels": 51,
     "fail": 0,
-    "last_ok": "2026-11-23",
-    "ms": 842,
-    "ok": 7
+    "last_ok": "2026-11-24",
+    "ms": 837,
+    "ok": 8
   },
   "https://develop202.github.io/migu_video/interface.txt": {
-    "fail": 7,
+    "fail": 8,
     "ok": 0
   },
   "https://down.nigx.cn/raw.githubusercontent.com/Kimentanm/aptv/master/m3u/iptv.m3u": {
     "channels": 120,
-    "fail": 6,
+    "fail": 7,
     "last_ok": "2026-11-19",
     "ms": 4112,
     "ok": 1
   },
   "https://gh-proxy.com/https:/raw.githubusercontent.com/gaotianliuyun/gao/master/js.json/list.txt": {
-    "fail": 7,
+    "fail": 8,
     "ok": 0
   },
   "https://ghp.ci/raw.githubusercontent.com/MemoryCollection/IPTV/refs/heads/main/itvlist.txt": {
-    "fail": 7,
+    "fail": 8,
     "ok": 0
   },
   "https://ghp.ci/raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/m3u/ipv6.m3u": {
-    "fail": 7,
+    "fail": 8,
     "ok": 0
   },
   "https://ghp.ci/raw.githubusercontent.com/wwb521/live/refs/heads/main/tv.m3u": {
-    "fail": 7,
+    "fail": 8,
     "ok": 0
   },
   "https://github.moeyy.xyz/https://raw.githubusercontent.com/dxawi/0/main/tvlive.txt": {
-    "fail": 7,
+    "fail": 8,
     "ok": 0
   },
   "https://iptv-org.github.io/iptv/countries/cn.m3u": {
     "channels": 156,
     "fail": 0,
-    "last_ok": "2026-11-23",
-    "ms": 42,
-    "ok": 6
+    "last_ok": "2026-11-24",
+    "ms": 92,
+    "ok": 7
   },
   "https://iptv.yang-1989.xyz/playlist.m3u": {
     "channels": 171,
     "fail": 0,
-    "last_ok": "2026-11-23",
-    "ms": 630,
-    "ok": 6
+    "last_ok": "2026-11-24",
+    "ms": 82,
+    "ok": 7
   },
   "https://live.zbds.top/tv/iptv4.m3u": {
-    "channels": 344,
+    "channels": 341,
     "fail": 0,
-    "last_ok": "2026-11-23",
-    "ms": 809,
-    "ok": 6
+    "last_ok": "2026-11-24",
+    "ms": 1057,
+    "ok": 7
   },
   "https://raw.githubusercontent.com/YueChan/Live/main/GNTV.m3u": {
     "channels": 130,
     "fail": 0,
-    "last_ok": "2026-11-23",
-    "ms": 289,
-    "ok": 6
+    "last_ok": "2026-11-24",
+    "ms": 73,
+    "ok": 7
   },
   "https://szyyds.cn/tv/live/x.txt": {
-    "fail": 7,
+    "fail": 8,
     "ok": 0
   },
   "https://szyyds.cn/tv/live/yy.txt": {
@@ -116,75 +116,75 @@
     "ok": 0
   },
   "https://szyyds.cn/tv/x.json/yqk": {
-    "fail": 7,
+    "fail": 8,
     "ok": 0
   },
   "https://testingcf.jsdelivr.net/gh/YueChan/Live@main/IPTV.m3u": {
     "channels": 96,
     "fail": 0,
-    "last_ok": "2026-11-23",
-    "ms": 70,
-    "ok": 6
+    "last_ok": "2026-11-24",
+    "ms": 25,
+    "ok": 7
   },
   "https://z.szyyds.cn/iptv": {
-    "channels": 382,
+    "channels": 166,
     "fail": 0,
-    "last_ok": "2026-11-23",
-    "ms": 1287,
-    "ok": 7
+    "last_ok": "2026-11-24",
+    "ms": 1177,
+    "ok": 8
   },
   "https://zb.7778.uk": {
     "channels": 473,
     "fail": 0,
-    "last_ok": "2026-11-23",
-    "ms": 1034,
-    "ok": 7
+    "last_ok": "2026-11-24",
+    "ms": 859,
+    "ok": 8
   },
   "https://zb.7778.uk/starlink.m3u": {
     "channels": 473,
     "fail": 0,
-    "last_ok": "2026-11-23",
-    "ms": 862,
-    "ok": 7
+    "last_ok": "2026-11-24",
+    "ms": 703,
+    "ok": 8
   },
   "https://ztha.top/TVBox/thdjk.json/lib/3d75a78a0fc7ede372c03598d6d10367.m3u": {
-    "fail": 7,
+    "fail": 8,
     "ok": 0
   },
   "https://ztha.top/TVBox/thdjk.json/lib/bililive.m3u": {
-    "fail": 7,
+    "fail": 8,
     "ok": 0
   },
   "https://ztha.top/TVBox/thdjk.json/lib/douyuyqk.m3u": {
-    "fail": 7,
+    "fail": 8,
     "ok": 0
   },
   "https://ztha.top/TVBox/thdjk.json/lib/fwc.m3u": {
-    "fail": 7,
+    "fail": 8,
     "ok": 0
   },
   "https://ztha.top/TVBox/thdjk.json/lib/huyayqk.m3u": {
-    "fail": 7,
+    "fail": 8,
     "ok": 0
   },
   "https://ztha.top/TVBox/thdjk.json/lib/interface.txt": {
-    "fail": 7,
+    "fail": 8,
     "ok": 0
   },
   "https://ztha.top/TVBox/thdjk.json/lib/iptv.m3u": {
-    "fail": 7,
+    "fail": 8,
     "ok": 0
   },
   "https://ztha.top/TVBox/thdjk.json/lib/yylunbo.m3u": {
-    "fail": 7,
+    "fail": 8,
     "ok": 0
   },
   "https://ztha.top/TVBox/thdjk.json/tv/MV.txt": {
-    "fail": 7,
+    "fail": 8,
     "ok": 0
   },
   "https://ztha.top/TVBox/thdjk.json/tv/thtv.txt": {
-    "fail": 7,
+    "fail": 8,
     "ok": 0
   }
 }
